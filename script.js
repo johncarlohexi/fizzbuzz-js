@@ -17,19 +17,16 @@ function divideOk(num) {
 
     switch(true) {
         case fizzBuzz:
-            console.log("fizzbuzz")
             showAnswer.textContent = "fizzbuzz"
         break;
         case checkFizz:
-            console.log("fizz")
             showAnswer.textContent = "fizz"
             break;
         case checkBuzz:
-            console.log("buzz")
             showAnswer.textContent = "buzz"
             break;
         default:
-            console.log("Not Devisble")
+            showAnswer.textContent = "Not Devisble"
             break;
     }
 }
